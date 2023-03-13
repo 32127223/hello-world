@@ -24,5 +24,15 @@ namespace hello_world
         {
             InitializeComponent();
         }
+
+        private void txtShow_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void btnGo_Click(object sender, RoutedEventArgs e)
+        {
+            txtShow.Text = "Hello World!";
+        }
     }
 }
